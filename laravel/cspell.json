@@ -1,0 +1,18 @@
+{
+    "words": ["mbstring", "mssql", "nbsp", "ndash", "qrcode", "Qrcode", "sqlite", "sqlsrv", "tbody", "thead", "vue-chartjs", "ziggy"],
+    "language": "en-US,en-GB,de-DE,fr-FR,de",
+    "ignorePaths": [
+        "package-lock.json",
+        "vscode-extension",
+        ".git/{info,lfs,logs,refs,objects}/**",
+        ".git/{index,*refs,*HEAD}",
+        ".vscode",
+        ".vscode-insiders",
+        "composer.json",
+        "vendor",
+        "composer.json",
+        "composer.lock",
+        "*.svg"
+    ],
+    "useGitignore": true
+}
