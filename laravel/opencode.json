@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "myprovider": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ionos",
+      "options": {
+        "baseURL": "https://openai.inference.de-txl.ionos.com/v1"
+      },
+      "models": {
+        "my-model-name": {
+          "name": "openai/gpt-oss-120b"
+        }
+      }
+    }
+  }
+}

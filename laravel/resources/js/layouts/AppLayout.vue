@@ -1,4 +1,5 @@
 <template>
+  <h1>Neuer Shop</h1>
   <div :class="`layout-${layoutVariant}`">
     <!-- Hier können später Header / Footer eingefügt werden -->
     <slot />
